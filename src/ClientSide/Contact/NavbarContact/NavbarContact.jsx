@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
-
+import contactHero from "../../../../public/Images/imagebb/contactHero.jpg";
 const NavbarContact = () => {
   const [open, setOpen] = useState(false);
   const handleMenu = () => {
@@ -20,8 +20,9 @@ const NavbarContact = () => {
   return (
     <div>
       <div
-        className='bg-[url("https://i.ibb.co/KmNfgfX/Whats-App-Image-2024-07-20-at-8-45-58-AM.jpg")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[100dvh] backgroundImage brig'
+        style={{backgroundImage : `url(${contactHero})`}}
+        className='
+            bg-no-repeat bg-center bg-cover w-[100%] h-[100dvh] backgroundImage brig h-[400px] lg:h-[100vh]'
       >
         {/* ============= mobile menu ========== */}
         <nav className="lg:hidden ">
