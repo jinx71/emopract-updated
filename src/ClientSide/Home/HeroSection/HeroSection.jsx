@@ -175,7 +175,8 @@ const HeroSection = () => {
         <Slider {...settings}>
           <div className="relative ">
             <div
-              className='bg-[url("https://i.ibb.co/K00S7wX/Asset-2-4x.webp")] 
+              style={{backgroundImage: `url(${slideTwo})`}}
+              className='
             bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '
             >
               {/* Hero Image Content */}
@@ -218,7 +219,9 @@ const HeroSection = () => {
           </div>
           {/* slider two */}
           <div className="relative">
-            <div className='bg-[url("https://i.ibb.co/p41vrrw/A7405738.jpg")] bg-no-repeat bg-top bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
+            <div 
+            style={{backgroundImage: `url(${slideOne})`}}
+            className=' bg-no-repeat bg-top bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
               {/* Hero Image Content */}
               <div className="heroImgParent ">
                 <div>
@@ -260,7 +263,9 @@ const HeroSection = () => {
 
           {/* slider three */}
           <div className="relative">
-            <div className='bg-[url("https://i.ibb.co/rp0drJW/WDW-0942.jpg")] bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
+            <div 
+            style={{backgroundImage: `url(${slideThree})`}}
+            className='bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
               {/* Hero Image Content */}
               <div className=" heroImgParent ">
                 <div>
