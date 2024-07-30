@@ -1,6 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Link } from "react-router-dom";
+import membershipCardOne from '../../../../public/Images/membership/Card 1.png';
+import membershipCardTwo from '../../../../public/Images/membership/Card 2.png';
+import membershipCardThree from '../../../../public/Images/membership/Card 3.png';
 
 const MembershipHome = () => {
   return (
@@ -27,8 +30,7 @@ const MembershipHome = () => {
             >
               <img
                 className="h-full w-full object-fill  rounded-[10px]"
-                src="
-                https://i.ibb.co/fSs0N5s/Whats-App-Image-2024-07-24-at-10-22-36-AM-4.jpg"
+                src={membershipCardOne}
                 alt=""
               />
             </div>
@@ -44,7 +46,7 @@ const MembershipHome = () => {
             >
               <img
                 className="h-full w-full object-fill  rounded-[10px]"
-                src="/public/Images/membership/WhatsApp Image 2024-07-24 at 10.22.36 AM (3).jpeg"
+                src={membershipCardTwo}
                 alt=""
               />
             </div>
@@ -60,7 +62,7 @@ const MembershipHome = () => {
             >
               <img
                 className="h-full w-full object-fill  rounded-[10px]"
-                src="https://i.ibb.co/zrHWpYx/Whats-App-Image-2024-07-24-at-10-22-35-AM.jpg"
+                src={membershipCardThree}
                 alt=""
               />
             </div>

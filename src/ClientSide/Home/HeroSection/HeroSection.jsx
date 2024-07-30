@@ -56,7 +56,7 @@ const HeroSection = () => {
     <div className="relative">
       {/* Fixed Navbar */}
       <nav className={`lg:hidden fixed-navbar ${scrolled ? "hidden" : ""}`}>
-        <div className="navbarLeftRightSpace flex justify-between items-center ">
+        <div className="navbarLeftRightSpace flex justify-between items-center bg-gradient-to-t from-transparent to-slate-800">
           <div className="headerLogo">
             <Link to="/">
               <img
@@ -172,10 +172,10 @@ const HeroSection = () => {
           <div className="relative ">
             <div
               className='bg-[url("https://i.ibb.co/K00S7wX/Asset-2-4x.webp")] 
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] '
+            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]'
             >
               {/* Hero Image Content */}
-              <div className="heroImgParent">
+              <div className="heroImgParent bg-gradient-to-b from-transparent to-gray-700">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -214,9 +214,9 @@ const HeroSection = () => {
           </div>
           {/* slider two */}
           <div className="relative">
-            <div className='bg-[url("https://i.ibb.co/p41vrrw/A7405738.jpg")] bg-no-repeat bg-top bg-cover w-[100%] h-[400px]'>
+            <div className='bg-[url("https://i.ibb.co/p41vrrw/A7405738.jpg")] bg-no-repeat bg-top bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
               {/* Hero Image Content */}
-              <div className="heroImgParent">
+              <div className="heroImgParent bg-gradient-to-b from-transparent to-gray-700">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -256,9 +256,9 @@ const HeroSection = () => {
 
           {/* slider three */}
           <div className="relative">
-            <div className='bg-[url("https://i.ibb.co/rp0drJW/WDW-0942.jpg")] bg-no-repeat bg-center bg-cover w-[100%] h-[400px]'>
+            <div className='bg-[url("https://i.ibb.co/rp0drJW/WDW-0942.jpg")] bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
               {/* Hero Image Content */}
-              <div className="heroImgParent">
+              <div className="heroImgParent bg-gradient-to-b from-transparent to-gray-700">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
