@@ -6,7 +6,7 @@ import { FaAngleRight } from 'react-icons/fa';
 import { IoMenu } from 'react-icons/io5';
 import { MdClose } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-
+import serviceHeroImage from '../../../../public/Images/servicesHeroBanner.png';
 const ServiceHero = () => {
 
     const [open, setOpen] = useState(false);
@@ -24,7 +24,9 @@ const ServiceHero = () => {
     return (
         <div>
             <div>
-                <div className='bg-[url("./Images/servicesHeroBanner.png")]
+                <div 
+                style={{backgroundImage: `url(${serviceHeroImage})`}}
+                className='
             bg-no-repeat bg-center bg-cover w-[100%] h-[100dvh] backgroundImage brig'>
 
 
