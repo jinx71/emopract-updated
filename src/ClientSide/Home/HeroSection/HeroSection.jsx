@@ -8,6 +8,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./hero.css";
+import slideOne from "../../../../public/Images/slides/slide1.jpg";
+import slideTwo from "../../../../public/Images/slides/slide2.jpg";
+import slideThree from "../../../../public/Images/slides/slide3.jpg";
 
 const HeroSection = () => {
   const [open, setOpen] = useState(false);
@@ -53,10 +56,11 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative ">
+      {/* <div class="absolute inset-0 bg-slate-950 opacity-80 h-[400px] lg:h-[100vh]"></div> */}
       {/* Fixed Navbar */}
       <nav className={`lg:hidden fixed-navbar ${scrolled ? "hidden" : ""}`}>
-        <div className="navbarLeftRightSpace flex justify-between items-center bg-gradient-to-t from-transparent to-slate-800">
+        <div className="navbarLeftRightSpace flex justify-between items-center">
           <div className="headerLogo">
             <Link to="/">
               <img
@@ -167,16 +171,16 @@ const HeroSection = () => {
       </div>
 
       {/* Slider Container */}
-      <div className="slider-container ">
+      <div className="slider-container">
         <Slider {...settings}>
           <div className="relative ">
             <div
               className='bg-[url("https://i.ibb.co/K00S7wX/Asset-2-4x.webp")] 
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]'
+            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '
             >
               {/* Hero Image Content */}
-              <div className="heroImgParent bg-gradient-to-b from-transparent to-gray-700">
-                <div>
+              <div className="heroImgParent ">
+                <div className="">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
                   </h2>
@@ -216,7 +220,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className='bg-[url("https://i.ibb.co/p41vrrw/A7405738.jpg")] bg-no-repeat bg-top bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
               {/* Hero Image Content */}
-              <div className="heroImgParent bg-gradient-to-b from-transparent to-gray-700">
+              <div className="heroImgParent ">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -258,7 +262,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className='bg-[url("https://i.ibb.co/rp0drJW/WDW-0942.jpg")] bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]'>
               {/* Hero Image Content */}
-              <div className="heroImgParent bg-gradient-to-b from-transparent to-gray-700">
+              <div className=" heroImgParent ">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower

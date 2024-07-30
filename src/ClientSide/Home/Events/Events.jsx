@@ -47,7 +47,7 @@ const Events = () => {
       <div>
         <p className="memberSmall">Events</p>
         <h2 className="memberTitle pb-[25px] lg:pb-[50px] md:pb-[50px] ">
-          Trending events
+          trending events
         </h2>
       </div>
 
@@ -55,7 +55,7 @@ const Events = () => {
 
       <div className="slider-container">
         <Slider {...settings}>
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/tKZjdkt/image-01-2.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/tKZjdkt/image-01-2.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">

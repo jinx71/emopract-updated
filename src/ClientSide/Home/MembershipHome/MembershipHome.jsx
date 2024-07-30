@@ -23,10 +23,10 @@ const MembershipHome = () => {
           <Link to="/membership">
             <div
               className="h-[450px] 
-    2xl:h-[478px]
-    xl:h-[478px]
-    md:h-[200px]
-    lg:h-[300px] w-full"
+              2xl:h-[620px]
+              xl:h-[620px]
+              md:h-[480px]
+              lg:h-[480px] w-full"
             >
               <img
                 className="h-full w-full object-fill  rounded-[10px]"
@@ -38,11 +38,11 @@ const MembershipHome = () => {
 
           <Link to="/membership">
             <div
-              className="h-[450px] 
-    2xl:h-[478px]
-    xl:h-[478px]
-    md:h-[200px]
-    lg:h-[300px] w-full"
+             className="h-[450px] 
+              2xl:h-[620px]
+              xl:h-[620px]
+              md:h-[480px]
+              lg:h-[480px] w-full"
             >
               <img
                 className="h-full w-full object-fill  rounded-[10px]"
@@ -55,10 +55,10 @@ const MembershipHome = () => {
           <Link to="/membership">
             <div
               className="h-[450px] 
-    2xl:h-[478px]
-    xl:h-[478px]
-    md:h-[200px]
-    lg:h-[300px] w-full"
+              2xl:h-[620px]
+              xl:h-[620px]
+              md:h-[480px]
+              lg:h-[480px] w-full"
             >
               <img
                 className="h-full w-full object-fill  rounded-[10px]"

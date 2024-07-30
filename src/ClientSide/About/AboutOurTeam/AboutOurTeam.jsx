@@ -148,7 +148,7 @@ const AboutOurTeam = () => {
       {/* ======== slider cards mobile ========= */}
       <div className="slider-container pt-[35px] md:pb-[60px] ">
         <div className="">
-          <div className="joysSliderImgParent relative">
+          <div className="joysSliderImgParent relative h-[450px] lg:h-[800px]">
             <img
               className="h-full w-full object-cover rounded-[10px]"
               src="./Images/aboutOurTeam.png"

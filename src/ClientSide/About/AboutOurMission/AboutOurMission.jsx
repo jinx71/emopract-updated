@@ -79,7 +79,7 @@ const AboutOurMission = () => {
               />
               <div
                 className={`contentParentMission ${
-                  index === currentIndex ? "opacity-100" : "opacity-0"
+                  index === currentIndex ? "opacity-100" : "opacity-0 lg:opacity-100"
                 } transition-opacity duration-500`}
               >
                 <h2 className="missionTitle ">{image.title}</h2>

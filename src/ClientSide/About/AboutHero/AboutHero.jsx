@@ -48,7 +48,7 @@ const AboutHero = () => {
       <div>
         <div
           className='bg-[url("./Images/aboutHero.png")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[320px] backgroundImage '
+            bg-no-repeat bg-center bg-cover w-[100%] h-[320px] lg:h-[100vh] backgroundImage '
         >
           {/* ============= mobile menu ========== */}
           <nav className="lg:hidden ">

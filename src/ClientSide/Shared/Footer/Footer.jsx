@@ -70,12 +70,12 @@ const Footer = () => {
 
           <div>
             <h2 className="footerMenuTextTitle">Link</h2>
-            <p className="footerMenuText">About Us</p>
-            <p className="footerMenuText">Services</p>
-            <p className="footerMenuText">Membership</p>
-            <p className="footerMenuText">Blog</p>
-            <p className="footerMenuText">Event</p>
-            <p className="footerMenuText">Contact Us</p>
+            <Link to="/About"><p className="footerMenuText">About Us</p></Link>
+            <Link to="/service"><p className="footerMenuText">Services</p></Link>
+            <Link to="/membership"><p className="footerMenuText">Membership</p></Link>
+            <Link to="/event"><p className="footerMenuText">Event</p></Link>
+            <Link to="/blogs"><p className="footerMenuText">Blog</p></Link>
+            <Link to="/contact"><p className="footerMenuText">Contact Us</p></Link>
             <Link to="/career">
               <p className="footerMenuText">Career</p>
             </Link>
